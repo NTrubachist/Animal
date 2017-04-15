@@ -97,34 +97,52 @@
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class=""><a href="#" data-toggle="modal" data-target="#login-modal">Sign in</a></li>
-                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
                                 </ul>
                             </div>
                         </div>
                     </nav>
-                    //Sign in form
-                    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
-                        <div class="modal-dialog">
-                            <div class="loginmodal-container">
-                                <h1>Sign in to Your Account</h1><br>
-                                <form>
-                                    <h4>Username or e-mail</h4>
-                                    <input type="text" name="user" placeholder="username or e-mail">
-                                    <h4>Password</h4>
-                                    <input type="password" name="pass" placeholder="password">
-                                    <input type="submit" name="login" class="login loginmodal-submit" value="Sign in">
-                                </form>
-                                <div class="login-help">
-                                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                     //Register
                     <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
                         <div class="modal-dialog">
                             <div class="registermodal-container">
                                 <h1>Create a new Account</h1><br>
+                                <form>
+                                    <h4>*Name</h4>
+                                    <input type="text" name="name" placeholder="name">
+                                    <h4>*Surname</h4>
+                                    <input type="text" name="surname" placeholder="surname">
+                                    <h4>*Username</h4>
+                                    <input type="text" name="user" placeholder="username">
+                                    <h4>*E-mail</h4>
+                                    <input type="email" name="emai<br>
+                                <form>
+                                    <h4>*Name</h4>
+                                    <input type="text" name="name" placeholder="name">
+                                    <h4>*Surname</h4>
+                                    <input type="text" name="surname" placeholder="surname">
+                                    <h4>*Username</h4>
+                                    <input type="text" name="user" placeholder="username">
+                                    <h4>*E-mail</h4>
+                                    <input type="email" name="emai<br>
+                                <form>
+                                    <h4>*Name</h4>
+                                    <input type="text" name="name" placeholder="name">
+                                    <h4>*Surname</h4>
+                                    <input type="text" name="surname" placeholder="surname">
+                                    <h4>*Username</h4>
+                                    <input type="text" name="user" placeholder="username">
+                                    <h4>*E-mail</h4>
+                                    <input type="email" name="emai<br>
+                                <form>
+                                    <h4>*Name</h4>
+                                    <input type="text" name="name" placeholder="name">
+                                    <h4>*Surname</h4>
+                                    <input type="text" name="surname" placeholder="surname">
+                                    <h4>*Username</h4>
+                                    <input type="text" name="user" placeholder="username">
+                                    <h4>*E-mail</h4>
+                                    <input type="email" name="emai<br>
                                 <form>
                                     <h4>*Name</h4>
                                     <input type="text" name="name" placeholder="name">
