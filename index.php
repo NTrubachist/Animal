@@ -8,7 +8,7 @@
     <script src="./libs/bootstrap/js/bootstrap.js"> </script>
     <link href="./css/style.css" rel="stylesheet">
     <title>Home</title>
-    <script>
+    
         $(function(){
             $('.button-checkbox').each(function(){
                 var $widget = $(this),
