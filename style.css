@@ -222,11 +222,12 @@ body{
 }
 
 @media (max-width:2000px) {
-    .leftside{
+    .reclame{
         margin-top: 35px;
         background-image: url("../gallery/leftside.jpg");
         height: 670px ;
         border-radius: 5px;
+        box-shadow: 2px 4px 3px #001a00;
     }
 
     .main{
@@ -249,14 +250,102 @@ body{
         font-size: 20px;
         color: #b6f423;
         text-align: justify;
-        height: 588px;
+        height: auto;
         box-shadow: 2px 4px 3px #001a00;
     }
 
 
 }
 
-@media (max-width:1100px) {
+@media (max-width:1205px) {
+    .reclame{
+        margin-top: 35px;
+        background-image: url("../gallery/leftside2.jpg");
+        height: 500px ;
+        border-radius: 5px;
+        box-shadow: 2px 4px 3px #001a00;
+    }
+
+    .main{
+        margin-top: 35px;
+    }
+
+    .name{
+        margin-left: 6px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
+
+    .text{
+        background-color: #336600;
+        margin-top: 12px;
+        margin-left: 6px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #b6f423;
+        text-align: justify;
+        height: auto;
+        box-shadow: 2px 4px 3px #001a00;
+    }
+
+
+}
+
+
+@media (max-width:1000px) {
+    .reclame{
+        margin-top: 35px;
+        background-image: url("../gallery/leftside3.jpg");
+        height: 390px ;
+        border-radius: 5px;
+        box-shadow: 2px 4px 3px #001a00;
+    }
+
+    .main{
+        margin-top: 10px;
+    }
+
+    .name{
+        margin-left: 0px;
+        border-radius: 0px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
+
+    .text{
+        background-color: #336600;
+        margin-top: 12px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        border-radius: 0px;
+        font-size: 20px;
+        color: #b6f423;
+        text-align: justify;
+        height: auto;
+        box-shadow: 2px 4px 3px #001a00;
+    }
+
+
+}
+
+
+
+@media (max-width:900px) {
+
+
+}
+
+@media (max-width:750px) {
+    .reclame{
+        margin-top: 20px;
+        background-image: url("../gallery/leftside4.jpg");
+        height: 300px ;
+        border-radius: 5px;
+        box-shadow: 2px 4px 3px #001a00;
+    }
 
 
 
@@ -264,8 +353,26 @@ body{
 
 
 
+@media (max-width:600px) {
+    .reclame{
+        margin-top: 20px;
+        background-image: url("../gallery/leftside5.jpg");
+        height: 250px ;
+        border-radius: 5px;
+        box-shadow: 2px 4px 3px #001a00;
+    }
 
+}
 
+@media (max-width:400px) {
+    .reclame{
+        display: none;
+    }
+
+    .main{
+        margin-top: 25px;
+    }
+}
 
 
 
