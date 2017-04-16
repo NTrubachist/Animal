@@ -254,6 +254,14 @@ body{
         box-shadow: 2px 4px 3px #001a00;
     }
 
+    .nameg{
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
+
 
 }
 
@@ -290,7 +298,13 @@ body{
         box-shadow: 2px 4px 3px #001a00;
     }
 
-
+    .nameg{
+        margin-top: 10px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
 }
 
 
@@ -328,23 +342,42 @@ body{
         box-shadow: 2px 4px 3px #001a00;
     }
 
-
+    .nameg{
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
 }
 
 
 
 @media (max-width:900px) {
-
+    .nameg{
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
 
 }
 
 @media (max-width:750px) {
     .reclame{
-        margin-top: 20px;
+        margin-top: 30px;
         background-image: url("../gallery/leftside4.jpg");
         height: 300px ;
         border-radius: 5px;
         box-shadow: 2px 4px 3px #001a00;
+    }
+    .nameg{
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
     }
 
 
@@ -362,6 +395,14 @@ body{
         box-shadow: 2px 4px 3px #001a00;
     }
 
+    .nameg{
+        margin-top: 35px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
+
 }
 
 @media (max-width:400px) {
@@ -372,8 +413,55 @@ body{
     .main{
         margin-top: 25px;
     }
+
+    .nameg{
+        margin-top: 20px;
+        border-radius: 5px;
+        background-color: #ff8c1a;
+        color: #006600;
+        box-shadow: 2px 4px 3px #803300;
+    }
 }
 
+
+
+.filter-button
+{
+    margin-top: 20px;
+    font-size: 18px;
+    border: 1px solid #b6f423;
+    border-radius: 5px;
+    text-align: center;
+    color: #006600;
+    margin-bottom: 20px;
+    background-color: #FF8C00;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #669900;
+    border-radius: 5px;
+    text-align: center;
+    color: #ff8c1a;
+    background-color: #669900;
+
+}
+
+
+.filter-button:focus{
+    background-color: #669900;
+    color: #FF8C00;
+}
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
 
 
 
