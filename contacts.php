@@ -7,8 +7,7 @@
     <script src="./libs/jQuery/jquery2.1.4.min.js"></script>
     <script src="./libs/bootstrap/js/bootstrap.js"> </script>
     <link href="./css/style.css" rel="stylesheet">
-    <title>Gallery</title>
-
+    <title>Contacts</title>
     <script>
         $(function(){
             $('.button-checkbox').each(function(){
@@ -66,26 +65,6 @@
                 init();});
         });
     </script>
-    <script>
-        $(document).ready(function(){
-
-            $(".filter-button").click(function(){
-                var value = $(this).attr('data-filter');
-
-                if(value == "all")
-                {
-                    $('.filter').show('1000');
-                }
-                else
-                {
-                    $(".filter").not('.'+value).hide('3000');
-                    $('.filter').filter('.'+value).show('3000');
-
-                }
-            });
-
-        });
-    </script>
 </head>
 <body>
 <div class="container-fluid">
@@ -113,8 +92,8 @@
                                         <li><a href="#">Wild</a></li>
                                     </ul>
                                 </li>
-                                <li class="active"><a href="gallery.php">Gallery</a></li>
-                                <li ><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li class="active"><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="contacts.php">Contacts</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
@@ -146,6 +125,8 @@
                         </div>
                     </div>
                 </div>
+
+                //Sign in form
                 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
                     <div class="modal-dialog">
                         <div class="loginmodal-container">
@@ -189,96 +170,61 @@
     </div>
 </div>
 <div class="container">
-    <div class="row main">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nameg">
-            <center><h1>Gallery</h1></center>
+    <div class="row">
+        <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 reclame">
         </div>
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text">
-        <div align="center">
-            <button class="btn btn-default filter-button" data-filter="all">All</button>
-            <button class="btn btn-default filter-button" data-filter="wild">Wild</button>
-            <button class="btn btn-default filter-button" data-filter="home">Home </button>
-            <button class="btn btn-default filter-button" data-filter="funny">Funny</button>
-            <button class="btn btn-default filter-button" data-filter="africa">Africa</button>
-            <button class="btn btn-default filter-button" data-filter="forest">Forest</button>
-        </div>
-        <br/>
+        <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12 main">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name">
+                    <center><h1>Contacts</h1></center>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                       <center><img src="gallery/nikolajs.jpg" align="middle"></center>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <center>
+                        <br>
+                        <p>Nikolajs Trubačistovs - Prokjektu vadītājs</p>
+                        <p><span class="glyphicon glyphicon-envelope"> n.trubachist@gmail.com</span></p>
+                        <p><span class="glyphicon glyphicon-phone"> 371 33434664</span></p></center>
+                    </div>
+                </div>
 
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                        <center><img src="gallery/natalija.jpg" align="middle"></center>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <center>
+                            <br>
+                            <p>Natalija Jansone - Dizaineris/Jaunākais programmētājs</p>
+                            <p><span class="glyphicon glyphicon-envelope"> n.jansone@gmail.com</span></p>
+                            <p><span class="glyphicon glyphicon-phone"> 371 45768732</span></p></center>
+                    </div>
+                </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild forest">
-                <img src="gallery/wild/wild6.jpg" class="img-responsive">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                        <center><img src="gallery/vladislavs.jpg" align="middle"></center>
+                    </div>
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                        <center>
+                            <br>
+                            <p>Vladislavs Gordejevs - Vecākais/Jaunākais programmētājs</p>
+                            <p><span class="glyphicon glyphicon-envelope"> v.gordejevs@gmail.com</span></p>
+                            <p><span class="glyphicon glyphicon-phone"> 371 45673221</span></p></center>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text but">
+                    <center>
+                        <button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> Facebook</button>
+                        <button type="button" class="btn btn-ins"><i class="fa fa-instagram left"></i> Instagram</button>
+                        <button type="button" class="btn btn-git"><i class="fa fa-github left"></i> Github</button>
+                    </center>
+                </div>
             </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild forest funny">
-                <img src="gallery/wild/wild7.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter funny">
-                <img src="gallery/funny/funny2.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter funny">
-                <img src="gallery/funny/funny3.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter funny">
-                <img src="gallery/funny/funny4.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter home">
-                <img src="gallery/home/home1.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter home">
-                <img src="gallery/home/home2.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter home">
-                <img src="gallery/home/home3.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter home">
-                <img src="gallery/home/home4.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild africa">
-                <img src="gallery/wild/wild1.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild africa">
-                <img src="gallery/wild/wild2.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter funny">
-                <img src="gallery/funny/funny1.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild africa">
-                <img src="gallery/wild/wild3.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild forest">
-                <img src="gallery/wild/wild4.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild africa">
-                <img src="gallery/wild/wild5.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter home">
-                <img src="gallery/home/home5.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild">
-                <img src="gallery/wild/wild8.jpg" class="img-responsive">
-            </div>
-
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-6 col-xs-6 filter wild africa">
-                <img src="gallery/wild/wild9.jpg" class="img-responsive">
-            </div>
-
-
-
 
         </div>
     </div>
