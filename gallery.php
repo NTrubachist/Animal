@@ -107,12 +107,7 @@
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
                                 <li><a href="index.php" class="">Home</a></li>
-                                <li class=" dropdown"><a href="animal.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Animal <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">Wild</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="Animal.php" class="">Animal</a></li>
                                 <li class="active"><a href="gallery.php">Gallery</a></li>
                                 <li ><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
@@ -140,8 +135,7 @@
                                 <input type="email" name="email" placeholder="e-mail">
                                 <h4>Your Message</h4>
                                 <input type="text" name="message" placeholder="Please enter your message here..." rows="5">
-                                <input type="submit" name="login" class="login loginmodal-submit" value="Sign in">
-
+                                <input type="submit" name="message" class="contact contactmodal-submit" value="Send">
                             </form>
                         </div>
                     </div>
@@ -190,7 +184,7 @@
 </div>
 <div class="container">
     <div class="row main">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 nameg">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name">
             <center><h1>Gallery</h1></center>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text">

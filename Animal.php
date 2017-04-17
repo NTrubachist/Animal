@@ -7,7 +7,7 @@
     <script src="./libs/jQuery/jquery2.1.4.min.js"></script>
     <script src="./libs/bootstrap/js/bootstrap.js"> </script>
     <link href="./css/style.css" rel="stylesheet">
-    <title>Contacts</title>
+    <title>Home</title>
     <script>
         $(function(){
             $('.button-checkbox').each(function(){
@@ -85,10 +85,10 @@
                         </div>
                         <div id="navbar" class="navbar-collapse collapse">
                             <ul class="nav navbar-nav">
-                                <li><a href="index.php" class="">Home</a></li>
-                                <li><a href="Animal.php" class="">Animal</a></li>
+                                <li ><a href="index.php" class="">Home</a></li>
+                                <li class="active"><a href="Animal.php" class="">Animal</a></li>
                                 <li><a href="gallery.php">Gallery</a></li>
-                                <li class="active"><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+                                <li ><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="contacts.php">Contacts</a></li>
                                         <li><a href="#" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
@@ -115,11 +115,11 @@
                                 <h4>Your Message</h4>
                                 <input type="text" name="message" placeholder="Please enter your message here..." rows="5">
                                 <input type="submit" name="message" class="contact contactmodal-submit" value="Send">
+
                             </form>
                         </div>
                     </div>
                 </div>
-
                 //Sign in form
                 <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
                     <div class="modal-dialog">
@@ -165,58 +165,36 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 reclame">
+        <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 leftside">
+            <div class="left-navigation">
+                <ul class="list">
+                    <h4><strong>Wild</strong></h4>
+                    <li>Lion</li>
+                    <li>Tiger</li>
+                    <li>Wolf</li>
+                    <li>Bear</li>
+                    <li>Shark</li>
+                </ul>
+
+                <br>
+
+                <ul class="list">
+                    <h4><strong>Home</strong></h4>
+                    <li>Dog</li>
+                    <li>Cat</li>
+                    <li>Bunny</li>
+                    <li>Mouse</li>
+                    <li>Bird</li>
+                </ul>
+            </div>
         </div>
         <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12 main">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 name">
-                    <center><h1>Contacts</h1></center>
+                    <center><h1>Articles</h1></center>
                 </div>
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                       <center><img src="gallery/nikolajs.jpg" align="middle"></center>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <center>
-                        <br>
-                        <p>Nikolajs Trubačistovs - Prokjektu vadītājs</p>
-                        <p><span class="glyphicon glyphicon-envelope"> n.trubachist@gmail.com</span></p>
-                        <p><span class="glyphicon glyphicon-phone"> 371 33434664</span></p></center>
-                    </div>
-                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text">
 
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <center><img src="gallery/natalija.jpg" align="middle"></center>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <center>
-                            <br>
-                            <p>Natalija Jansone - Dizaineris/Jaunākais programmētājs</p>
-                            <p><span class="glyphicon glyphicon-envelope"> n.jansone@gmail.com</span></p>
-                            <p><span class="glyphicon glyphicon-phone"> 371 45768732</span></p></center>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text con">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
-                        <center><img src="gallery/vladislavs.jpg" align="middle"></center>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        <center>
-                            <br>
-                            <p>Vladislavs Gordejevs - Vecākais/Jaunākais programmētājs</p>
-                            <p><span class="glyphicon glyphicon-envelope"> v.gordejevs@gmail.com</span></p>
-                            <p><span class="glyphicon glyphicon-phone"> 371 45673221</span></p></center>
-                    </div>
-                </div>
-
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text but">
-                    <center>
-                        <button type="button" class="btn btn-fb"><i class="fa fa-facebook left"></i> Facebook</button>
-                        <button type="button" class="btn btn-ins"><i class="fa fa-instagram left"></i> Instagram</button>
-                        <button type="button" class="btn btn-git"><i class="fa fa-github left"></i> Github</button>
-                    </center>
                 </div>
             </div>
 

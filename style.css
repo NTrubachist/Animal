@@ -349,6 +349,15 @@ body{
 }
 
 @media (max-width:2000px) {
+    .leftside{
+        margin-top: 35px;
+        background-color: #ff8c1a;
+        border-radius: 5px;
+        color: #006600;
+        font-size: 18px;
+    }
+
+
     .reclame{
         margin-top: 35px;
         background-image: url("../gallery/leftside.jpg");
@@ -466,7 +475,7 @@ body{
     }
 
     .name{
-        margin-left: 6px;
+        margin-left: 0px;
         border-radius: 5px;
         background-color: #ff8c1a;
         color: #006600;
@@ -476,7 +485,7 @@ body{
     .text{
         background-color: #336600;
         margin-top: 12px;
-        margin-left: 6px;
+        margin-left: 0px;
         border-radius: 5px;
         font-size: 20px;
         color: #b6f423;
@@ -485,13 +494,7 @@ body{
         box-shadow: 2px 4px 3px #001a00;
     }
 
-    .nameg{
-        margin-top: 10px;
-        border-radius: 5px;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow: 2px 4px 3px #803300;
-    }
+
 }
 
 
@@ -505,11 +508,11 @@ body{
     }
 
     .main{
-        margin-top: 10px;
+        margin-top: 30px;
     }
 
     .name{
-        margin-left: 0;
+        margin-left: 0px;
         border-radius: 0;
         background-color: #ff8c1a;
         color: #006600;
@@ -519,35 +522,23 @@ body{
     .text{
         background-color: #336600;
         margin-top: 12px;
-        margin-left: 0;
+        margin-left: 0px;
         margin-bottom: 10px;
         border-radius: 0;
         font-size: 20px;
         color: #b6f423;
         text-align: justify;
         height: auto;
-        box-shadow: 0;
+        box-shadow: none;
     }
 
-    .nameg{
-        margin-top: 35px;
-        border-radius: 0;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow:0;
-    }
+
 }
 
 
 
 @media (max-width:900px) {
-    .nameg{
-        margin-top: 35px;
-        border-radius: 0;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow: 0;
-    }
+
 
 }
 
@@ -559,14 +550,18 @@ body{
         border-radius: 0;
         box-shadow: 0;
     }
-    .nameg{
-        margin-top: 35px;
-        border-radius: 0;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow: 0;
-    }
 
+    .text{
+        background-color: #336600;
+        margin-top: 12px;
+        margin-left: 0px;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #b6f423;
+        text-align: justify;
+        height: auto;
+        box-shadow: 2px 4px 3px #001a00;
+    }
 
 
 }
@@ -579,16 +574,15 @@ body{
         background-image: url("../gallery/leftside5.jpg");
         height: 250px ;
         border-radius: 0;
-        box-shadow: 0;
+        box-shadow: none;
     }
 
-    .nameg{
+    .main{
         margin-top: 35px;
-        border-radius: 0;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow: 0;
     }
+
+
+
 
     .filter-button
     {
@@ -639,15 +633,43 @@ body{
         margin-top: 25px;
     }
 
-    .nameg{
-        margin-top: 20px;
-        border-radius: 0;
-        background-color: #ff8c1a;
-        color: #006600;
-        box-shadow: 0;
+
+
+    .text{
+        background-color: #336600;
+        margin-top: 12px;
+        margin-left: 0px;
+        border-radius: 0px;
+        font-size: 20px;
+        color: #b6f423;
+        text-align: justify;
+        height: auto;
+        box-shadow: 2px 4px 3px #001a00;
     }
 }
 
+
+
+
+.list {
+    list-style: none;
+    padding-left: 0px;
+}
+.list::first-line {
+    color: rgba(255, 255, 255, 0.5);
+}
+.list> li, h5 {
+    padding: 5px 0px 5px 40px;
+}
+.list>li:hover {
+    background-color: #669900;
+    border-left: 5px solid white;
+    color: white;
+    font-weight: bolder;
+    padding-left: 35px;
+}.main-content{
+     text-align:center;
+ }
 
 
 
