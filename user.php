@@ -125,7 +125,7 @@
                             <center><h1>Add article</h1><br></center>
                             <form>
                                 <input type="file" name="article" placeholder="add article">
-                                <input type="submit" name="message" class=articleaddartmodal-submit" value="Save">
+                                <input type="submit" name="message" class="addartmodal-submit" value="Save">
                             </form>
                         </div>
                     </div>
