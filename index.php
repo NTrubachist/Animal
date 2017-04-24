@@ -1,3 +1,10 @@
+<?php
+	session_start();
+	include("php/class_Blocks.php");
+	
+	$blocks = new Blocks();
+?>
+
 <!DOCTYPE html>
 <html lang="eng">
 <head>
@@ -67,87 +74,15 @@
     </script>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            //Navbar
-            <div class="navbar-wrapper">
-                <div class="container-fluid">
-                    <nav class="navbar navbar-fixed-top">
-                        <div class="container">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="index.php">Animal</a>
-                            </div>
-                            <div id="navbar" class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="index.php" class="">Home</a></li>
-                                    <li class=" dropdown"><a href="animal.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Animal <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="#">Home</a></li>
-                                            <li><a href="#">Wild</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="gallery.php">Gallery</a></li>
-                                    <li><a href="contacts.php">Contacts</a></li>
-                                </ul>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li class=""><a href="#" data-toggle="modal" data-target="#login-modal">Sign in</a></li>
-                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                    //Sign in form
-                    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
-                        <div class="modal-dialog">
-                            <div class="loginmodal-container">
-                                <h1>Sign in to Your Account</h1><br>
-                                <form>
-                                    <h4>Username or e-mail</h4>
-                                    <input type="text" name="user" placeholder="username or e-mail">
-                                    <h4>Password</h4>
-                                    <input type="password" name="pass" placeholder="password">
-                                    <input type="submit" name="login" class="login loginmodal-submit" value="Sign in">
-                                </form>
-                                <div class="login-help">
-                                    <a href="#">Register</a> - <a href="#">Forgot Password</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    //Register
-                    <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
-                        <div class="modal-dialog">
-                            <div class="registermodal-container">
-                                <h1>Create a new Account</h1><br>
-                                <form>
-                                    <h4>*Name</h4>
-                                    <input type="text" name="name" placeholder="name">
-                                    <h4>*Surname</h4>
-                                    <input type="text" name="surname" placeholder="surname">
-                                    <h4>*Username</h4>
-                                    <input type="text" name="user" placeholder="username">
-                                    <h4>*E-mail</h4>
-                                    <input type="email" name="email" placeholder="e-mail">
-                                    <h4>*Password</h4>
-                                    <input type="password" name="pass" placeholder="password">
-                                    <input type="submit" name="register" class="register registermodal-submit" value="Register">
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="container-fluid">
+		<div class="row">
+			<?php $blocks->insertNavBar(); ?>
+		</div>
+	</div>
+
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 leftside">
+            <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 reclame">
             </div>
             <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12 main">
                 <div class="row">
@@ -161,7 +96,13 @@
                         <p>The biological definition of the word refers to all members of the kingdom Animalia, encompassing creatures as diverse as sponges, jellyfish, insects, and humans.</p>
                     </div>
                 </div>
-
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+                <center><p>Animals 2017</p></center>
             </div>
         </div>
     </div>
