@@ -93,7 +93,12 @@
                                         </ul>
                                     </li>
                                     <li><a href="gallery.php">Gallery</a></li>
-                                    <li><a href="contacts.php">Contacts</a></li>
+                                    <li ><a href="contacts.php" class="dropdown-toggle " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contacts <span class="caret"></span></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="contacts.php">Contacts</a></li>
+                                            <li><a href="#" data-toggle="modal" data-target="#contact-modal">Contact us</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class=""><a href="#" data-toggle="modal" data-target="#login-modal">Sign in</a></li>
@@ -102,6 +107,24 @@
                             </div>
                         </div>
                     </nav>
+                    /*Contac us*/
+                    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
+                        <div class="modal-dialog">
+                            <div class="contactmodal-container">
+                                <center><h1>Contact us</h1><br></center>
+                                <form>
+                                    <h4>Name</h4>
+                                    <input type="text" name="name" placeholder="name">
+                                    <h4>Your E-mail</h4>
+                                    <input type="email" name="email" placeholder="e-mail">
+                                    <h4>Your Message</h4>
+                                    <input type="text" name="message" placeholder="Please enter your message here..." rows="5">
+                                    <input type="submit" name="login" class="login loginmodal-submit" value="Sign in">
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                     //Sign in form
                     <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none">
                         <div class="modal-dialog">
@@ -147,7 +170,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 leftside">
+            <div class="col-lg-3 col-md-2 col-sm-12 col-xs-12 reclame">
             </div>
             <div class="col-lg-9 col-md-10 col-sm-12 col-xs-12 main">
                 <div class="row">
