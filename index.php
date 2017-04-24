@@ -98,6 +98,13 @@
                                 <ul class="nav navbar-nav navbar-right">
                                     <li class=""><a href="#" data-toggle="modal" data-target="#login-modal">Sign in</a></li>
                                     <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">Register</a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">1</a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">2</a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">3</a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">4/a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">5er</a></li>
+                                    <li class=""><a href="#" data-toggle="modal" data-target="#register-modal">R6</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
