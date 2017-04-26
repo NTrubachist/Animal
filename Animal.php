@@ -7,8 +7,6 @@
 
 <!DOCTYPE html>
 <html lang="eng">
-	Kaut kāda cita informācija
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
